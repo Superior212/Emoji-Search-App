@@ -6,7 +6,7 @@ class SearchBar extends React.Component {
     const { search, onSearch } = this.props;
     return (
       <div >
-        <h1 className='cover'>💻Emoji Search💻</h1>
+        <h1 className='cover cover1'>💻Emoji Search💻</h1>
         <form className='cover'>
         <input type="text" name='search'
           value={search}
