@@ -31,7 +31,7 @@ class App extends React.Component {
     return (
       <div className='main'>
         <SearchBar search={search} onSearch={this.handleSearch} />
-        <EmojiList data={data} />
+        {data.length==0?"Search not found":<EmojiList data={data} />}
       </div>
     );
   }
